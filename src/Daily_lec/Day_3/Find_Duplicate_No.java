@@ -9,7 +9,7 @@ public class Find_Duplicate_No {
             arr[i]=sc.nextInt();
         }
         int ans=findDuplicate(arr);
-        System.out.println(Arrays.toString(arr));
+        System.out.println(ans);
     }
     public static int findDuplicate(int[] arr) {
         int i = 0;

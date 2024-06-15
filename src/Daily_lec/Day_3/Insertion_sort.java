@@ -6,7 +6,7 @@ public class Insertion_sort {
         insertion(arr);
         System.out.println(Arrays.toString(arr));
     }
-    static void insertion(int arr[]){
+    static void insertion(int []arr){
         for(int i=1;i<arr.length;i++){
             int p=i;
             while(arr[p]< arr[p-1]){

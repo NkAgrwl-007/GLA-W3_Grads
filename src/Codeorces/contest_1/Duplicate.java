@@ -11,8 +11,8 @@ public class Duplicate {
         ArrayList<Integer> lst= new ArrayList<>();
         duplicate(arr,lst);
         Collections.sort(lst);
-        for(int i=0;i<lst.size();i++ ){
-            System.out.print(lst.get(i)+" ");
+        for (Integer integer : lst) {
+            System.out.print(integer + " ");
         }
     }
     static void duplicate(int []arr, List<Integer> lst){

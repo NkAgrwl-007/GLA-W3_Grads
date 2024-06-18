@@ -8,8 +8,6 @@ public class Factorial {
         if(n==0 || n==1){
             return 1;
         }
-
-        factorial(n-1);
-        return n*(n-1);
+        return n*factorial(n-1);
     }
 }
